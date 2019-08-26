@@ -28,5 +28,5 @@ values(2,35000,'2332 Center Street','Orlando','Florida');
 Select * from Employee.Employee
 where Did = 1;
 
-select sum(salary) from Employee.EmployeeDetails,Employee.Employee
-where Did = 1;
+select firstname,salary from Employee.Employee, Employee.EmployeeDetails
+where firstname = 'Tina';
